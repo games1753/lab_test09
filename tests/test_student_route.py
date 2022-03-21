@@ -22,7 +22,7 @@ def test_post_to_insert(db):
 
 def test_put_update(db):
     response = client.put(
-        "/students/622ff554a9343c5de82fa04c",
+        "/students/6238b47bbf014672aab0dfa8",
         json={
             "name": "update",
             "description": "string2",
@@ -38,7 +38,7 @@ def test_put_update(db):
 
 def test_student_delete(db):
     response = client.delete(
-        "/students/622ff554a9343c5de82fa04c"
+        "/students/6238b47bbf014672aab0dfa8"
         
     )
     assert response.status_code == 200
