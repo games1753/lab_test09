@@ -1,5 +1,4 @@
 from pymongo import MongoClient
-import ssl
 from core import config
 
 

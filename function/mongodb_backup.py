@@ -1,8 +1,9 @@
-import bson
+
 from pymongo import MongoClient
 import sys  
 import os      
-sys.path.insert(0, '../lab_test06') 
+sys.path.insert(0, '../lab_test06')
+import bson 
 
 from config import database
 
